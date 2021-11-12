@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="9dp"
+            tools:src="@drawable/ui_add_image" />
+
+        <ImageView
+            android:id="@+id/delete_iv"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="right|top"
+            android:src="@drawable/ui_upload_detele" />
+
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:id="@+id/placeholder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/placeholder_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="9dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ui_add_image" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

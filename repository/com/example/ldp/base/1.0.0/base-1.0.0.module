@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.ldp",
+    "module": "base",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.lxj",
+          "module": "xpopup",
+          "version": {
+            "requires": "2.2.23"
+          }
+        },
+        {
+          "group": "de.hdodenhof",
+          "module": "circleimageview",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-1.0.0.aar",
+          "url": "base-1.0.0.aar",
+          "size": 64014,
+          "sha512": "a6dc05f232afd1ded59852ae679f4661b0f6b03dcf3d273761b38491b35b3127c2cbe5d4fe1e6450c7a48a9cd9a01db8c5d81737d31048ef4bba4b153a7c7f8e",
+          "sha256": "94349f96207f7cb4be98c109438bfde2a7dd5f0ec9955566f5faa0c22c9163d5",
+          "sha1": "dc408c320bb9d59d46df6b9e47dc228ce2b2d1b2",
+          "md5": "a79d98272f7bdbf7fea77d1ae6ef2da6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "com.lxj",
+          "module": "xpopup",
+          "version": {
+            "requires": "2.2.23"
+          }
+        },
+        {
+          "group": "de.hdodenhof",
+          "module": "circleimageview",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-1.0.0.aar",
+          "url": "base-1.0.0.aar",
+          "size": 64014,
+          "sha512": "a6dc05f232afd1ded59852ae679f4661b0f6b03dcf3d273761b38491b35b3127c2cbe5d4fe1e6450c7a48a9cd9a01db8c5d81737d31048ef4bba4b153a7c7f8e",
+          "sha256": "94349f96207f7cb4be98c109438bfde2a7dd5f0ec9955566f5faa0c22c9163d5",
+          "sha1": "dc408c320bb9d59d46df6b9e47dc228ce2b2d1b2",
+          "md5": "a79d98272f7bdbf7fea77d1ae6ef2da6"
+        }
+      ]
+    }
+  ]
+}

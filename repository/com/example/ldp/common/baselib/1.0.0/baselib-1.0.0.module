@@ -1,0 +1,272 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.ldp.common",
+    "module": "baselib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "com.lxj",
+          "module": "xpopup",
+          "version": {
+            "requires": "2.2.23"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "de.hdodenhof",
+          "module": "circleimageview",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.noober.background",
+          "module": "core",
+          "version": {
+            "requires": "1.6.5"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.qmuiteam",
+          "module": "qmui",
+          "version": {
+            "requires": "2.0.0-alpha10"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-layout-kernel",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-header-radar",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "baselib-1.0.0.aar",
+          "url": "baselib-1.0.0.aar",
+          "size": 2666114,
+          "sha512": "9e64d7fbb0785a612c82a55c2f13957dac9f16541aa41890aaf5b750f092d89b276bd3294e4bb0b069f00c5d676bc511a1e3c6f54ecae01ae2e5b93eeec70369",
+          "sha256": "86839aef528ff4c2f828512783684a23e515be6ea6577e0ea45dd4d42a07671e",
+          "sha1": "41953725c0096dbdf5c7cf5c55caaf0ccabf28ce",
+          "md5": "026d8196a0136738342c065eb19d512e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.lucksiege",
+          "module": "pictureselector",
+          "version": {
+            "requires": "v2.7.3-rc02"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "XXPermissions",
+          "version": {
+            "requires": "12.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "com.lxj",
+          "module": "xpopup",
+          "version": {
+            "requires": "2.2.23"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0-alpha02"
+          }
+        },
+        {
+          "group": "de.hdodenhof",
+          "module": "circleimageview",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.noober.background",
+          "module": "core",
+          "version": {
+            "requires": "1.6.5"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          }
+        },
+        {
+          "group": "com.qmuiteam",
+          "module": "qmui",
+          "version": {
+            "requires": "2.0.0-alpha10"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-layout-kernel",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-header-radar",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "baselib-1.0.0.aar",
+          "url": "baselib-1.0.0.aar",
+          "size": 2666114,
+          "sha512": "9e64d7fbb0785a612c82a55c2f13957dac9f16541aa41890aaf5b750f092d89b276bd3294e4bb0b069f00c5d676bc511a1e3c6f54ecae01ae2e5b93eeec70369",
+          "sha256": "86839aef528ff4c2f828512783684a23e515be6ea6577e0ea45dd4d42a07671e",
+          "sha1": "41953725c0096dbdf5c7cf5c55caaf0ccabf28ce",
+          "md5": "026d8196a0136738342c065eb19d512e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+rootProject.name = "MyTestApplication"
+include ':app'
+include ':base_lib'
+//include ':base_moudle'

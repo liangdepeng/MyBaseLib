@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">单词本</string>
+    <string name="image_translation">image_move_translation</string>
+    <string name="text_part_1">1.首页取的ID会在登录后显示在右上方。</string>
+    <string name="text_part_2">2.在主界面，点击“录入”、“背诵”、“个人中心”会显示不同的面板。</string>
+    <string name="text_part_3">3.在“录入”界面点击“录入”按钮会把单词录入到单词库中。</string>
+    <string name="text_part_4">4.录入时，如果单词以ion、ment等标志性名词结尾，录入时翻译前面会自动补充“n.”。翻译以“的”等结尾，录入后翻译前自动补充“adj. ”，以“地”结尾，自动补充“adv. ”。</string>
+    <string name="text_part_5">5.在“背诵”界面点击“认识”会删除该单词,点击“不认识”会显示翻译，点击“下一个”会显示下个单词。</string>
+    <string name="text_part_6">6.在“个人中心”界面，为了更方便查看单词,点击单词库，显示库中所有单词。目前新增单词库序号，以供清楚看到库中多少单词。</string>
+    <string name="input_tips">请输入需要翻译的内容~</string>
+</resources>
