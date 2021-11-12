@@ -75,7 +75,7 @@ public abstract class BaseSimpleAdapter extends BaseAdapter {
             convertView = LayoutInflater.from(context).inflate(layoutResId, parent, false);
         }
 
-        // todo 这边可以加 viewholder 方便缓存 需要请自己实现
+        //  这边可以加 viewholder 方便缓存 需要请自己实现
 
         // 绑定列表数据
         onBindView(position, data.get(position));

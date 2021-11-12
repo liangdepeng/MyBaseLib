@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
  *
  *          HttpURLConnection  + AsyncTask + Gson 解析实现
  */
-@Deprecated
+//@Deprecated
 public class HttpHelper {
 
     private HttpHelper() {

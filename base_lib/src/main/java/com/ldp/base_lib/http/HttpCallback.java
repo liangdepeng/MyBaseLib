@@ -6,7 +6,7 @@ package com.ldp.base_lib.http;
  * Date: 2021-01-30
  * <p>
  */
-@Deprecated
+//@Deprecated
 public interface HttpCallback {
 
     /**

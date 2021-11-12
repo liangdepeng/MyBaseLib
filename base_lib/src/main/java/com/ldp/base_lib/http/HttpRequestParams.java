@@ -11,7 +11,7 @@ import java.util.HashMap;
  * <p>
  * api path:
  */
-@Deprecated
+//@Deprecated
 public class HttpRequestParams {
 
     // 默认 get 方式 请求数据
