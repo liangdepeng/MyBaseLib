@@ -29,17 +29,17 @@ afterEvaluate {
         }
 
 
-        repositories {
-            maven {
-                allowInsecureProtocol true
-                name = "nexus2" //可选
-                url = uri('../repository')
-//                credentials {
-//                    username = MAVEN_USERNAME
-//                    password = MAVEN_PASSWORD
-//                }
-            }
-        }
+//        repositories {
+//            maven {
+//                allowInsecureProtocol true
+//                name = "nexus2" //可选
+//                url = uri('../repository')
+////                credentials {
+////                    username = MAVEN_USERNAME
+////                    password = MAVEN_PASSWORD
+////                }
+//            }
+ //       }
     }
 }
 
